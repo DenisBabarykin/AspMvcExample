@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Стартовая страница";
+}
+
+<div class="text-center">
+    <h1>Таблицы:</h1>
+    <div class="list-group">
+        <a asp-controller="Genders" asp-action="Index" class="list-group-item list-group-item-action">Гендеры</a>
+        <a asp-controller="Clients" asp-action="Index" class="list-group-item list-group-item-action">Клиенты</a>
+        <a asp-controller="Products" asp-action="Index" class="list-group-item list-group-item-action">Товары</a>
+        <a asp-controller="Receipts" asp-action="Index" class="list-group-item list-group-item-action">Чеки</a>
+        <a asp-controller="ReceiptPositions" asp-action="Index" class="list-group-item list-group-item-action">Чековые позиции</a>
+    </div>
+    <h1>Диаграмма схемы базы данных:</h1>
+    <img src="imgs/DbDiagram.png" alt="Не удалось загрузить схему."/>
+</div>
